@@ -1,0 +1,609 @@
+[20-Nov-25 18:57:55 - INFO] - ShrutixMusic.core.mongo - Connecting to your Mongo Database...
+[20-Nov-25 18:57:55 - INFO] - ShrutixMusic.core.mongo - Connected to your Mongo Database.
+[20-Nov-25 18:57:55 - INFO] - ShrutixMusic.core.dir - Directories Updated.
+[20-Nov-25 18:57:55 - INFO] - ShrutixMusic.core.git - Git Client Found [VPS DEPLOYER]
+[20-Nov-25 18:57:55 - INFO] - ShrutixMusic.misc - Local Database Initialized.
+[20-Nov-25 18:57:55 - INFO] - ShrutixMusic.core.bot - Starting Bot...
+[20-Nov-25 18:57:58 - INFO] - ShrutixMusic/platforms/Youtube.py - API URL loaded successfully
+[20-Nov-25 18:58:03 - INFO] - ShrutixMusic.misc - Sudoers Loaded.
+[20-Nov-25 18:58:12 - ERROR] - ShrutixMusic.core.bot - Bot has failed to access the log group/channel. Make sure that you have added your bot to your log group/channel.
+[20-Nov-25 19:00:07 - INFO] - ShrutixMusic.core.mongo - Connecting to your Mongo Database...
+[20-Nov-25 19:00:08 - INFO] - ShrutixMusic.core.mongo - Connected to your Mongo Database.
+[20-Nov-25 19:00:08 - INFO] - ShrutixMusic.core.dir - Directories Updated.
+[20-Nov-25 19:00:08 - INFO] - ShrutixMusic.core.git - Git Client Found [VPS DEPLOYER]
+[20-Nov-25 19:00:08 - INFO] - ShrutixMusic.misc - Local Database Initialized.
+[20-Nov-25 19:00:08 - INFO] - ShrutixMusic.core.bot - Starting Bot...
+[20-Nov-25 19:00:10 - INFO] - ShrutixMusic/platforms/Youtube.py - API URL loaded successfully
+[20-Nov-25 19:00:11 - INFO] - ShrutixMusic.misc - Sudoers Loaded.
+[20-Nov-25 19:00:23 - INFO] - ShrutixMusic.core.bot - Music Bot Started as 𝙴𝚇𝙸𝚉𝙴_𝙼𝚄𝚂𝙸𝙲 (𝙽𝙾 𝙰𝙳𝚂) 
+[20-Nov-25 19:00:23 - INFO] - ShrutixMusic.plugins - Successfully Imported Modules...
+[20-Nov-25 19:00:23 - INFO] - ShrutixMusic.core.userbot - Starting Assistants...
+[20-Nov-25 19:00:25 - INFO] - ShrutixMusic.core.userbot - Assistant 1 started successfully
+[20-Nov-25 19:00:25 - INFO] - ShrutixMusic.core.userbot - Assistant 1 ID: 8228297244, Username: None
+[20-Nov-25 19:00:27 - INFO] - ShrutixMusic.core.userbot - Assistant 1 joined support chats
+[20-Nov-25 19:00:27 - INFO] - ShrutixMusic.core.userbot - Trying to send message to LOGGER_ID: -1003286308363
+[20-Nov-25 19:00:28 - INFO] - ShrutixMusic.core.userbot - Logger group info: Exizemusic
+[20-Nov-25 19:00:28 - INFO] - ShrutixMusic.core.userbot - Assistant 1 status in logger group: ChatMemberStatus.ADMINISTRATOR
+[20-Nov-25 19:00:28 - INFO] - ShrutixMusic.core.userbot - Assistant 1 successfully sent message to logger group
+[20-Nov-25 19:00:28 - INFO] - ShrutixMusic.core.userbot - Assistant 1 Started as <a href=tg://user?id=8228297244>𝙴𝚇𝙸𝚉𝙴_𝙼𝚄𝚂𝙸𝙲 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃</a>
+[20-Nov-25 19:00:28 - INFO] - ShrutixMusic.core.call - Starting PyTgCalls Client...
+
+[20-Nov-25 19:00:53 - INFO] - ShrutixMusic - Shrutix Music Bot Started Successfully.
+
+Don't forget to visit @ShrutiBots
+[20-Nov-25 19:04:08 - INFO] - ShrutixMusic/platforms/Youtube.py - 🎵 [AUDIO] Starting download for: HTeP7ja9UFY
+[20-Nov-25 19:04:10 - INFO] - ShrutixMusic/platforms/Youtube.py - 🔗 [AUDIO] Telegram link received: https://t.me/AllMusicDb/99
+[20-Nov-25 19:04:10 - INFO] - ShrutixMusic/platforms/Youtube.py - 📥 [TELEGRAM] Downloading from @AllMusicDb/99
+[20-Nov-25 19:04:28 - INFO] - ShrutixMusic/platforms/Youtube.py - ✅ [TELEGRAM] Downloaded: HTeP7ja9UFY
+[20-Nov-25 19:06:31 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-5686' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:32 - ERROR] - pyrogram.dispatcher - Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "channels.GetMessages")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 342, in handler_worker
+    await parser(update, users, chats)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 86, in message_parser
+    await pyrogram.types.Message._parse(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 1754, in _parse
+    return await types.Message._parse_message(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 1663, in _parse_message
+    reply_to_message = await client.get_messages(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/get_messages.py", line 134, in get_messages
+    r = await self.invoke(rpc, sleep_threshold=-1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "channels.GetMessages")
+[20-Nov-25 19:06:32 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-5726' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:33 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-5796' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:34 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-5864' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:36 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-5897' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:37 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-5966' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:38 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6022' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:39 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6161' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:40 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6234' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:46 - ERROR] - pyrogram.dispatcher - Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "messages.GetStickerSet")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 342, in handler_worker
+    await parser(update, users, chats)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 86, in message_parser
+    await pyrogram.types.Message._parse(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 1754, in _parse
+    return await types.Message._parse_message(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 1663, in _parse_message
+    reply_to_message = await client.get_messages(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/get_messages.py", line 136, in get_messages
+    messages = await utils.parse_messages(self, r, replies=replies)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/utils.py", line 158, in parse_messages
+    await types.Message._parse(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 1754, in _parse
+    return await types.Message._parse_message(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 1434, in _parse_message
+    sticker = await types.Sticker._parse(client, doc, attributes)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/sticker.py", line 210, in _parse
+    set_name = await Sticker._get_sticker_set_name(client.invoke, input_sticker_set_id)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/sticker.py", line 152, in _get_sticker_set_name
+    name = (await invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "messages.GetStickerSet")
+[20-Nov-25 19:06:48 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6391' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:49 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6433' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:50 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6476' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:51 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6513' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:52 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-3879' coro=<Client.handle_updates() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/client.py:795> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "updates.GetChannelDifference")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/client.py", line 838, in handle_updates
+    diff = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "updates.GetChannelDifference")
+[20-Nov-25 19:06:52 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-4530' coro=<Client.handle_updates() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/client.py:795> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "channels.GetChannels")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 67, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/storage/sqlite_storage.py", line 363, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1003249418154'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/client.py", line 840, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 91, in resolve_peer
+    await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "channels.GetChannels")
+[20-Nov-25 19:06:52 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6544' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:53 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6572' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:57 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6618' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:58 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6642' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:06:59 - ERROR] - pyrogram.dispatcher - Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "channels.GetMessages")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 342, in handler_worker
+    await parser(update, users, chats)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 86, in message_parser
+    await pyrogram.types.Message._parse(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 1754, in _parse
+    return await types.Message._parse_message(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 1663, in _parse_message
+    reply_to_message = await client.get_messages(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/get_messages.py", line 134, in get_messages
+    r = await self.invoke(rpc, sleep_threshold=-1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "channels.GetMessages")
+[20-Nov-25 19:06:59 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6643' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:07:00 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6659' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:07:01 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6677' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:07:02 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6699' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:07:03 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6718' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:07:04 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6742' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:07:05 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6778' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:07:06 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6808' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:07:07 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6839' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:07:08 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6862' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:07:10 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6868' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:07:11 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6895' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:07:12 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6928' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:07:13 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-6967' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:07:14 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-7002' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:271> exception=AuthKeyDuplicated('Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 277, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 215, in start
+    raise e
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 188, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
+[20-Nov-25 19:07:17 - INFO] - ShrutixMusic.core.mongo - Connecting to your Mongo Database...
+[20-Nov-25 19:07:17 - INFO] - ShrutixMusic.core.mongo - Connected to your Mongo Database.
+[20-Nov-25 19:07:17 - INFO] - ShrutixMusic.core.dir - Directories Updated.
+[20-Nov-25 19:07:17 - INFO] - ShrutixMusic.core.git - Git Client Found [VPS DEPLOYER]
+[20-Nov-25 19:07:17 - INFO] - ShrutixMusic.misc - Local Database Initialized.
+[20-Nov-25 19:07:17 - INFO] - ShrutixMusic.core.bot - Starting Bot...
+[20-Nov-25 19:07:20 - INFO] - ShrutixMusic/platforms/Youtube.py - API URL loaded successfully
+[20-Nov-25 19:07:22 - INFO] - ShrutixMusic.misc - Sudoers Loaded.
+[20-Nov-25 19:07:37 - INFO] - ShrutixMusic.core.bot - Music Bot Started as 𝙴𝚇𝙸𝚉𝙴_𝙼𝚄𝚂𝙸𝙲 (𝙽𝙾 𝙰𝙳𝚂) 
+[20-Nov-25 19:07:37 - INFO] - ShrutixMusic.plugins - Successfully Imported Modules...
+[20-Nov-25 19:07:37 - INFO] - ShrutixMusic.core.userbot - Starting Assistants...
+[20-Nov-25 19:07:49 - ERROR] - ShrutixMusic.core.userbot - Failed to start Assistant 1: AuthKeyDuplicated: Telegram says: [406 AUTH_KEY_DUPLICATED] - The same authorization key (session file) was used in more than one place simultaneously, the current session was invalidated by the server for security reasons! You must delete your session file and log in again with your phone number or bot token. (caused by "InvokeWithLayer")
